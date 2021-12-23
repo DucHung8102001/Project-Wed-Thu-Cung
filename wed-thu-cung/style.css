@@ -128,16 +128,16 @@ html::-webkit-scrollbar-thumb {
 
 .Dear{
     max-width:100%;
-    font-family: arial; 
+    font-family: Arial, sans-serif;
 }
-.contanin-wrap{
+.contain-wrap{
     width: 100%;
     background-image: url(img/login-background.jpg);
     background-repeat: no-repeat;
 }
 
-.Dear .contanin-wrap{
-    padding: 0px 0px;
+.Dear .contain-wrap{
+    padding: 0;
     display:flex;
     align-items: center;
     justify-content: flex-end;
@@ -148,7 +148,7 @@ html::-webkit-scrollbar-thumb {
     width: 500px;
     background-color:#fff;
     border-radius:10px ;
-    padding: o 24px;
+    padding: 0 24px;
     margin-right: 100px;
 }
 .contain-login .title{
@@ -168,7 +168,7 @@ html::-webkit-scrollbar-thumb {
     height:25px;
 }
 .contain-login .av-form{
-    margin-top:60x;
+    margin-top: 60px;
     padding: 20px 20px;
 }
 .contain-login .av-form input{
@@ -248,7 +248,7 @@ html::-webkit-scrollbar-thumb {
     color: #573f1e;
     font-size:18px;
     font-weight:600;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     line-height:25px;
     margin: 36px 0 12px ;  
 }
@@ -256,7 +256,7 @@ html::-webkit-scrollbar-thumb {
     color: #573f1e;
     font-size:18px;
     font-weight:600;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     line-height:25px;
     margin: 14px 0 12px ;  
 }
@@ -295,7 +295,7 @@ html::-webkit-scrollbar-thumb {
     text-decoration: none; 
     list-style: none;
     width: 288px;height: 122px;
-    padding-left:0px ;
+    padding-left: 0;
     margin-top:16px ;
 }
 .column .footer-list .items{
@@ -304,7 +304,7 @@ html::-webkit-scrollbar-thumb {
     font-size:14px;
     line-height: 19px;
     text-align: left;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     text-decoration: none;
     padding-top: 11px;
 }
@@ -343,7 +343,6 @@ html::-webkit-scrollbar-thumb {
 .container-section{
     display:flex;
     max-width:1200px;
-    padding-left: 6px;
     padding-right: 6px;  
     justify-content: center;
     padding-left: 159px; 
@@ -351,15 +350,15 @@ html::-webkit-scrollbar-thumb {
 .container-section .my-address p{
     color: #fff;
     font-size: 14px;
-    font-family: arial;
-    font-weight: 400px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
     text-align: center;
     line-height: 25px;
 }
 .container-section .my-address p a{
     display: inline-block;
     color: #ffffff;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     font-size: 14px;line-height: 25px;
 }
 
