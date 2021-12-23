@@ -404,7 +404,6 @@ background: #4285F4;
   width: 1280px;
   height: 530px;
   background-color: white;
-
   margin: auto;
 }
 
@@ -454,7 +453,7 @@ background: #4285F4;
   padding: 10px;
   list-style-type: none;
   width: 186px;
-  height: 230px;
+  height: 250px;
   text-align: center;
 }
 
@@ -475,6 +474,7 @@ background: #4285F4;
 
 .product-card .product-card-title {
   font-weight: normal;
+  padding-top: 20px;
 }
 
 /* footer */
