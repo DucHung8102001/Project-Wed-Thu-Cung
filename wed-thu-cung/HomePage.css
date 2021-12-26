@@ -161,7 +161,7 @@ html::-webkit-scrollbar-thumb {
 }
 .nav-bar{
   position:absolute;
-  /* display: none; */
+  display: none;
   display: block;
   top: 113px;
   animation:all 0.5s ease;
