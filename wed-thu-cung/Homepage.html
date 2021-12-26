@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!-- custom css file link  -->
+     <link rel="stylesheet" href="HomePage.css">
+</head>
+<body>
+    <!-- header section starts  -->
+<header class="header">
+    <a href="Homepage.html" class="logo"> <img  class="LG" src="img/PETSHOP.png" alt=""> PetShop </a>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="icons">
+        <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
+        <a href="Signin.html" class="fas fa-user"></a>
+        <a href="#" class="fas fa-plus-square"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+    </div> 
+    
+</header>
+<!--  section menu  -->
+<div class="dear">
+    <div class="menu-DC">
+        <ul class="list-DC" style="list-style: none;display: flex;">
+            <li class="li-dc">
+                <div class="dc-item">
+                        <span class="c1" id="c1"> 
+                            <a class="c2" href=""> Chó ></a> 
+                        </span> 
+                        <div class="nav-bar">
+                            <div class="menu-bar">
+                                <div class="img-bar">
+                                    <img class="imggif" src="img/doghome.gif" alt="">
+                                </div>
+                                <div class="iteim-bar">
+                                    <ul class="sub-menu">
+                                        <li><a href="giong-cho-canh/alaska/cho-Alaska.html"> Alaska</a></li>
+                                        <li><a href="giong-cho-canh/border-collie/cho-Border-Collie.html"> Border Collie</a></li>
+                                        <li><a href="giong-cho-canh/bull-phap/cho-Bull-Phap.html"> Bull Pháp</a></li>
+                                        <li><a href="giong-cho-canh/corgi/cho-Corgi.html"> Corgi</a></li>
+                                        <li><a href="giong-cho-canh/golden/cho-Golden.html"> Golden</a></li>
+                                        <li><a href="giong-cho-canh/husky/cho-Husky.html"> Husky</a></li>
+                                    </ul>
+                                    <ul class="sub-menu">
+                                        <li><a href="giong-cho-canh/labrador/cho-Labrador.html"> Labrador</a></li>
+                                        <li><a href="giong-cho-canh/phoc-soc/cho-Phoc-Soc.html"> Phốc Sốc</a></li>
+                                        <li><a href="giong-cho-canh/poodle/cho-Poodle.html"> Poodle</a></li>
+                                        <li><a href="giong-cho-canh/pug/cho-Pug.html"> Pug</a></li>
+                                        <li><a href=""> Samoyed</a></li>
+                                        <li><a href=""> Shiba</a></li>                              
+                                    </ul>                               
+                                </div>
+                            </div>
+                        </div>                        
+                </div>               
+            </li>            
+            <li class="li-dc">
+                <div class="dc-item">
+                    <span class="c1" id="c2"> 
+                        <a class="c2" href=""> Mèo ></a> 
+                    </span>                   
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class= "nen">
+        <img class="nen1" src="img/1.jpg" alt="">
+    </div>
+
+        <!--image slider start Dog-->
+        <div class="BG-Dog">
+            <div class="slider-Dog">
+                <div class="slides-dog">
+                  <!--radio buttons start-->
+                  <input class="d" type="radio" name="radio-btn" id="radio1">
+                  <input class="d" type="radio" name="radio-btn" id="radio2">
+                  <input class="d" type="radio" name="radio-btn" id="radio3">
+                  <input class="d" type="radio" name="radio-btn" id="radio4">
+                  <!--radio buttons end-->
+                  <!--slide images start-->
+                  <div class="slide first">
+                    <img src="img/dog1.png" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="img/dog2.png" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="img/dog3.png" alt="">
+                  </div>
+                  <div class="slide">
+                    <img src="img/dog4.png" alt="">
+                  </div>
+                  <!--slide images end-->
+                  <!--automatic navigation start-->
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                  </div>
+                  <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+              </div>
+        </div>
+         <!--dog menu-->
+         <div class="container">
+            <div class="page-block dog">
+                <div class="page-block-grid">
+                  <div class="page-block-header">
+                    <h2 class="page-block-header-title">Giống Chó Cảnh</h2>
+                    <img src="img/dog/header.png" height="1459" width="730" alt="Giống Chó Cảnh"/>
+                  </div>
+                  <ul class="page-block-product">
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/alaska/cho-Alaska.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Alaska.jpg" height="375" width="375" alt="Alaska"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Alaska</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/border-collie/cho-Border-Collie.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Border-Collie.jpg" height="400" width="400" alt="Border Collie"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Border Collie</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/bull-phap/cho-Bull-Phap.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Bull-Phap.jpg" height="400" width="400" alt="Bull Pháp"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Bull Pháp</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/corgi/cho-Corgi.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Pembroke-Welsh-Corgi.jpg" height="400" width="400" alt="Corgi"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Corgi</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/golden/cho-Golden.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Golden-Retriever.jpg" height="400" width="400" alt="Golden"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Golden</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/husky/cho-Husky.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Husky.jpg" height="400" width="400" alt="Husky"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Husky</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/labrador/cho-Labrador.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Labrador.jpg" height="400" width="400" alt="Labrador"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Labrador</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/phoc-soc/cho-Phoc-Soc.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Phoc-Soc.jpg" height="400" width="400" alt="Phốc Sóc"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Phốc Sóc</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/poodle/cho-Poodle.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Poodle.jpg" height="400" width="400" alt="Poodle"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Poodle</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="giong-cho-canh/pug/cho-Pug.html">
+                          <div class="product-card-top">
+                            <img src="img/dog/Pug.jpg" height="400" width="400" alt="Pug"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Pug</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="#">
+                          <div class="product-card-top">
+                            <img src="img/dog/Samoyed.jpg" alt="Samoyed"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Samoyed</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                      <div class="product-card">
+                        <a class="product-link" href="#">
+                          <div class="product-card-top">
+                            <img src="img/dog/Shiba.jpg" height="400" width="400" alt="Shiba"/>
+                          </div>
+                          <div class="product-card-content">
+                            <h3 class="product-card-title">Shiba</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </li>
+                    <li class="product">
+                          <div class="product-card">
+                              <a class="product-link" href="#">
+                                  <div class="product-card-top">
+                                      <img src="img/dog/Beagle.jpg" height="400" width="400" alt="Beagle"/>
+                                  </div>
+                                  <div class="product-card-content">
+                                      <h3 class="product-card-title">Beagle</h3>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                    <li class="product">
+                          <div class="product-card">
+                              <a class="product-link" href="#">
+                                  <div class="product-card-top">
+                                      <img src="img/dog/Chow-Chow.jpg" height="375" width="375" alt="Chow Chow"/>
+                                  </div>
+                                  <div class="product-card-content">
+                                      <h3 class="product-card-title">Chow Chow</h3>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                    <li class="product">
+                          <div class="product-card">
+                              <a class="product-link" href="#">
+                                  <div class="product-card-top">
+                                      <img src="img/dog/Lap-Xuong.jpg" height="375" width="375" alt="Lạp Xưởng"/>
+                                  </div>
+                                  <div class="product-card-content">
+                                      <h3 class="product-card-title">Lạp Xưởng</h3>
+                                  </div>
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+
+         </div>
+              
+           
+</div>
+<!--image slider start Cat-->
+   
+    <div class="slider">
+    <div class="slide-C active">
+      <img src="img/cat1.jpg" alt="">
+    </div>
+    <div class="slide-C">
+      <img src="img/cat2.jpg" alt="">
+    </div>
+    <div class="slide-C">
+      <img src="img/cat3.jpg" alt="">
+    </div>
+    <div class="slide-C">
+      <img src="img/cat4.jpg" alt="">
+    </div>
+    <div class="navigation">
+      <i class="fas fa-chevron-left prev-btn"></i>
+      <i class="fas fa-chevron-right next-btn"></i>
+    </div>
+    <div class="navigation-visibility">
+      <div class="slide-icon active"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+    </div>
+    </div>
+
+    <!--cat-->
+    <div class="container">
+        <div class="page-block cat">
+            <div class="page-block-grid">
+              <div class="page-block-header">
+                <h2 class="page-block-header-title">Giống Mèo Cảnh</h2>
+                <img src="img/cat/header.jpg" height="1459" width="730" alt="Giống Mèo Cảnh"/>
+              </div>
+              <ul class="page-block-product">
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="giong-meo-canh/anh-long-dai/meo-anh-long-dai.html">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Anh-Long-Dai.jpg" height="375" width="375" alt="Anh Lông Dài"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Anh Lông Dài</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="giong-meo-canh/anh-long-ngan/meo-anh-long-ngan.html">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Anh-Long-Ngan.jpg" height="400" width="400" alt="Anh Lông Ngắn"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Anh Lông Ngắn</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="giong-meo-canh/ba-tu/meo-ba-tu.html">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-ba-tu.jpg" height="375" width="375" alt="Ba Tư"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Ba Tư</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Bengal.jpg" height="375" width="375" alt="Bengal"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Bengal</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-maine-coon.jpg" height="375" width="375" alt="Maine Coon"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Maine Coon</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Munchkin.jpg" height="400" width="400" alt="Munchkin"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Munchkin</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Ragdoll.jpg" height="375" width="375" alt="Ragdoll"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Ragdoll</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-scottish-fold.jpg" height="400" width="400" alt="Scottish Fold"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Scottish Fold</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Sphynx.jpg" height="375" width="375" alt="Sphynx"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Sphynx</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-tuxedo.jpg" height="400" width="400" alt="Tuxedo"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Tuxedo</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-Siberia.jpg" height="400" width="400" alt="Siberia"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Siberia</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                  <div class="product-card">
+                    <a class="product-link" href="#">
+                      <div class="product-card-top">
+                        <img src="img/cat/Meo-rung-na-uy.jpg" height="375" width="375" alt="Rừng Na Uy"/>
+                      </div>
+                      <div class="product-card-content">
+                        <h3 class="product-card-title">Rừng Na Uy</h3>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="product">
+                      <div class="product-card">
+                          <a class="product-link" href="#">
+                              <div class="product-card-top">
+                                  <img src="img/cat/Meo-Birman.jpg" height="400" width="400" alt="Birman"/>
+                              </div>
+                              <div class="product-card-content">
+                                  <h3 class="product-card-title">Birman</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </li>
+                <li class="product">
+                      <div class="product-card">
+                          <a class="product-link" href="#">
+                              <div class="product-card-top">
+                                  <img src="img/cat/Meo-Russian-Blue.jpg" height="375" width="375" alt="Russian Blue"/>
+                              </div>
+                              <div class="product-card-content">
+                                  <h3 class="product-card-title">Russian Blue</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </li>
+                <li class="product">
+                      <div class="product-card">
+                          <a class="product-link" href="#">
+                              <div class="product-card-top">
+                                  <img src="img/cat/Meo-Somali.jpg" height="400" width="400" alt="Somali"/>
+                              </div>
+                              <div class="product-card-content">
+                                  <h3 class="product-card-title">Somali</h3>
+                              </div>
+                          </a>
+                      </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+    </div>
+        <!-- footer -->
+    <footer class="container-footer">
+      <div class="footer-wrap">
+          <div class="row">
+              <div class="column">
+                  <h3 class="col-title">TẢI ỨNG DỤNG CHỢ PET</h3>
+                  <div class="store-content">
+                      <div class="qrcode">
+                          <div>
+                              <img class="qrcode-img" src="img/qrcode.jpg" alt="">
+                          </div>
+                      </div>
+                      <div class="link">
+                          <a class="store-item " href="">
+                              <img class="img-chplay imges" src="img/ggplay.png" alt="">
+                          </a>
+                          <a class="store-item " href="">
+                              <img class="img-appstore imges " src="img/appstore.png" alt="">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="column">
+                  <h3 class="col-title">HỖ TRỢ KHÁCH HÀNG</h3>
+                  <ul class="footer-list">
+                      <li><a href="" class="items">Liên hệ hỗ trợ</a></li>
+                      <li><a href="" class="items">Những câu hỏi thường gặp</a></li>
+                      <li><a href="" class="items">Chính sách bảo mật thông tin</a></li>
+                      <li><a href="" class="items">Cơ chế giải quyết khiếu nại tranh chấp</a></li>
+                  </ul>
+              </div>
+              <div class="column">
+                  <h3 class="col-title">VỀ CHÚNG TÔI</h3>
+                  <ul class="footer-list">
+                      <li><a href="" class="items">Giới thiệu</a></li>
+                      <li><a href="" class="items">Tuyển dụng</a></li>
+                      <li><a href="" class="items">Quy chế hoạt động</a></li>
+                  </ul>
+              </div>
+              <div class="column">
+                  <h3 class="col-title">Liên Hệ</h3>
+                  <div class="icons-lh">
+                      <a href="" class="contact-item">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                      <a href="" class="contact-item">
+                          <i class="fas fa-mobile-alt"></i>
+                      </a>
+                  </div>
+                  <h3 class="col-title-1">CHỨNG NHẬN</h3>
+                  <a href="" class="contact">
+                      <img src="img/DDK.png" alt="" class="DDK">
+                  </a>
+              </div>
+          </div>
+      </div>
+      <section class="section-wrap">
+          <div class="container-section">
+              <div class="my-address">
+                  <p>Địa chỉ:___________________ Thành phố Hồ Chí Minh, Việt Nam</p>
+                  <p>
+                      <a href="mailto:19130082@st.hcmuaf.edu.vn"> Email: 19130082@st.hcmuaf.edu.vn  </a>
+                      <span>-</span>
+                      <a href="tel:0372820810"> Đường dây nóng: 0372820810</a>
+                  </p>
+              </div>
+          </div>
+      </section>
+
+  </footer>
+
+
+<script>
+    $(document).ready(function(){
+  $(".c1").hover(function(){
+      var id =$(this).attr('id');
+      if(id==="c1"){
+          $(".imggif").attr('src',"img/doghome.gif");
+      }else{
+        $(".imggif").attr('src',"img/cathome.gif");
+      }
+    $('.nav-bar').css('display', 'block');
+    $(".nav-bar").hover(function(){
+
+  },function(){
+    $('.nav-bar').css('display', 'none');
+  })
+});
+});
+</script>
+    
+</body>
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+<script type="text/javascript">
+            const slider = document.querySelector(".slider");
+            const nextBtn = document.querySelector(".next-btn");
+            const prevBtn = document.querySelector(".prev-btn");
+            const slides = document.querySelectorAll(".slide-C");
+            const slideIcons = document.querySelectorAll(".slide-icon");
+            const numberOfSlides = slides.length;
+            var slideNumber = 0;
+        
+            //image slider next button
+            nextBtn.addEventListener("click", () => {
+              slides.forEach((slide) => {
+                slide.classList.remove("active");
+              });
+              slideIcons.forEach((slideIcon) => {
+                slideIcon.classList.remove("active");
+              });
+        
+              slideNumber++;
+        
+              if(slideNumber > (numberOfSlides - 1)){
+                slideNumber = 0;
+              }
+        
+              slides[slideNumber].classList.add("active");
+              slideIcons[slideNumber].classList.add("active");
+            });
+        
+            //image slider previous button
+            prevBtn.addEventListener("click", () => {
+              slides.forEach((slide) => {
+                slide.classList.remove("active");
+              });
+              slideIcons.forEach((slideIcon) => {
+                slideIcon.classList.remove("active");
+              });
+        
+              slideNumber--;
+        
+              if(slideNumber < 0){
+                slideNumber = numberOfSlides -1;
+              }
+        
+              slides[slideNumber].classList.add("active");
+              slideIcons[slideNumber].classList.add("active");
+            });
+        
+            //image slider autoplay
+            var playSlider;
+        
+            var repeater = () => {
+              playSlider = setInterval(function(){
+                slides.forEach((slide) => {
+                  slide.classList.remove("active");
+                });
+                slideIcons.forEach((slideIcon) => {
+                  slideIcon.classList.remove("active");
+                });
+        
+                slideNumber++;
+        
+                if(slideNumber > (numberOfSlides - 1)){
+                  slideNumber = 0;
+                }
+        
+                slides[slideNumber].classList.add("active");
+                slideIcons[slideNumber].classList.add("active");
+              }, 4000);
+            }
+            repeater();
+        
+            //stop the image slider autoplay on mouseover
+            slider.addEventListener("mouseover", () => {
+              clearInterval(playSlider);
+            });
+        
+            //start the image slider autoplay again on mouseout
+            slider.addEventListener("mouseout", () => {
+              repeater();
+            });
+            </script>
+</html>

@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+
+html::-webkit-scrollbar  {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #f6b11a;
+  border-radius: 5rem;
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #f6b11a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 9%;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.header .logo .LG {
+  height:50px;
+  border-radius: 10px;
+
+}
+
+.header .search-form {
+  border-radius: 5rem;
+  height: 5rem;
+  width: 50rem;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+}
+
+.header .search-form input {
+  width: 100%;
+  padding-right: 1rem;
+  font-size: 1.7rem;
+  text-transform: none;
+  color: #666;
+}
+
+.header .search-form label {
+  font-size: 2rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.header .search-form label:hover {
+  color: #0984e3;
+}
+
+.header .icons a,
+.header .icons div {
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header .icons a:hover,
+.header .icons div:hover {
+  color: #0984e3;
+}
+/*breadcrumb*/
+.breadcrumb {
+  background-color: #eee;
+}
+
+.breadcrumb .breadcrumb-container {
+  width: 1245px;
+  margin: auto;
+  font-size: 15px;
+}
+.breadcrumb-container .breadcrumb-list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-list i {
+  font-size: 35px;
+  color: #00000045;
+  padding: 0 10px;
+}
+
+.breadcrumb-list a {
+  color: #0000007a;
+}
+
+.breadcrumb-list a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* container */
+.container {
+  padding: 15px 0;
+  width: 1280px;
+  height: 1250px;
+  margin: auto;
+}
+
+.page-block {
+  padding: 0 20px;
+  width: 1280px;
+  height: 1227px;
+}
+
+.page-block-header {
+  margin: 8px 0;
+}
+
+.page-block-header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.page-block-product {
+  list-style-type: none;
+  width: 1240px;
+  height: 1187px;
+}
+
+.page-block-product li {
+  float: left;
+  padding: 0 5px;
+  margin: 20px 0;
+  border-radius: 3%;
+}
+
+.product-card:hover {
+  border-radius: 3%;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.product-card-content .product-card-title {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.product-card-content .product-card_price {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+.product-link {
+  text-decoration: none;
+  color: black;
+}
+
+.product-card-top {
+  height: 300px;
+  width: 300px;
+}
+
+.product-card-top img {
+  border-radius: 3%;
+  width: 300px;
+  height: 300px;
+}
+/* footer */
+.container-footer{
+  background-color: #f6b11a;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.container-footer .footer-wrap .row{
+  display: flex;
+}
+.footer-wrap{
+  max-width: 1200px;
+  padding-left: 6px;padding-right:6px;
+  margin-right: auto;margin-left: auto;
+}
+.column .col-title{
+  color: #573f1e;
+  font-size:18px;
+  font-weight:600;
+  font-family: Arial sans-serif;
+  line-height:25px;
+  margin: 36px 0 12px ;
+}
+.column .col-title-1{
+  color: #573f1e;
+  font-size:18px;
+  font-weight:600;
+  font-family: Arial sans-serif;
+  line-height:25px;
+  margin: 14px 0 12px ;
+}
+.column {
+  flex-basis: 25%;
+  font-size: 12px;
+  padding:0 20px 0 6px;
+}
+.column .store-content{
+  display: flex;
+  margin-top:28px;
+}
+.column .store-content .qrcode{
+  display: block;
+}
+.column .store-content .qrcode .qrcode-img{
+  height:100px;
+  width: 100px;
+  border-radius: 20px;
+}
+.column .store-content .link{
+  display: block;
+}
+.column .store-content .link .store-item .imges{
+  height:47px;
+  width: 162px;
+  vertical-align: middle;
+}
+.column .store-content .link .store-item .img-chplay{
+  margin-bottom: 7px;
+}
+.column .footer-list{
+  display: flex;
+  flex-direction: column;
+  font-size:12px;
+  text-decoration: none;
+  list-style: none;
+  width: 288px;height: 122px;
+  padding-left:0;
+  margin-top:16px ;
+}
+.column .footer-list .items{
+  color: #573f1e;
+  display:inline-block;
+  font-size:14px;
+  line-height: 19px;
+  text-align: left;
+  font-family: Arial sans-serif;
+  text-decoration: none;
+  padding-top: 11px;
+}
+.column .icons-lh{
+  display:flex;
+  flex-direction: row;
+}
+.column .icons-lh .contact-item{
+  width:32px;
+  height: 32px;
+  text-align: center;
+  justify-content:center;
+}
+.column .icons-lh .contact-item .fa-facebook{
+  background-color:#fff;
+  border-radius: 50%;
+  color:#0000ee;
+  font-size: 32px;
+}
+.column .icons-lh .contact-item .fa-mobile-alt{
+  font-size: 32px;
+  color:#fff;
+  border-radius: 10%;
+  background-color:#70b535;
+  margin-left: 5px;
+}
+.column .contact .DDK{
+  width: 120px;
+  height:47px ;
+}
+.section-wrap{
+  background-color: #291704;
+  width: 100%;
+  text-align: center;
+}
+.container-section{
+  display:flex;
+  max-width:1200px;
+  padding-right: 6px;
+  justify-content: center;
+  padding-left: 159px;
+}
+.container-section .my-address p{
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+}
+.container-section .my-address p a{
+  display: inline-block;
+  color: #ffffff;
+  font-family: Arial sans-serif;
+  font-size: 14px;line-height: 25px;
+}
