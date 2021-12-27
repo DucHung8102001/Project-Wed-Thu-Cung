@@ -219,6 +219,7 @@ html::-webkit-scrollbar-thumb {
   display: flex;
 }
 .slides-dog .d{
+  display:none;
   margin-top: 320px;
   text-align: center;
   justify-content:center;
@@ -267,19 +268,22 @@ html::-webkit-scrollbar-thumb {
 }
 
 #radio1:checked ~ .first{
-  margin-left: -51px;
+  margin-left: 0px;
 }
 
 #radio2:checked ~ .first{
-  margin-left: -1101px;
+  /* margin-left: -1101px; */
+  margin-left: -20%;
 }
 
 #radio3:checked ~ .first{
-  margin-left: -2152px;
+  /* margin-left: -2152px; */
+  margin-left: -40%;
 }
 
 #radio4:checked ~ .first{
-  margin-left: -61%;
+  /* margin-left: -61%; */
+  margin-left: -60%;
 }
 
 /*css for automatic navigation*/
