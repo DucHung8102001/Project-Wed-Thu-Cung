@@ -481,11 +481,139 @@ background: #4285F4;
   font-weight: normal;
   padding-top: 20px;
 }
+ /* csssss */
+ .slider-end{
+  height: 180px;
+  margin-top: 80px;
+  width: auto;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+
+ }
+
+ .slider-ft{
+  width: 1187px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides-ft{
+  width: 500%;
+  height: 150px;
+  display: flex;
+}
+
+.slides-ft input{
+  display: none;
+}
+
+.slide-ft{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide-ft img{
+  width: 1187px;
+  height: 150px;
+}
+
+/*css for manual slide-ft navigation*/
+
+.navigation-manual-1{
+  position: absolute;
+  width: 1187px;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn1{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn1:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn1:hover{
+  background: #40D3DC;
+}
+
+#radio-1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio-2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio-3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio-4:checked ~ .first{
+  margin-left: -60%;
+}
+#radio-5:checked ~ .first{
+  margin-left: -80%;
+}
+#radio-6:checked ~ .first{
+  margin-left: -100%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto-1{
+  position: absolute;
+  display: flex;
+  width: 1187px;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+.navigation-auto-1 div{
+  border: 2px solid #3c0999;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto-1 div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio-1:checked ~ .navigation-auto-1 .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio-2:checked ~ .navigation-auto-1 .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio-3:checked ~ .navigation-auto-1 .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio-4:checked ~ .navigation-auto-1 .auto-btn4{
+  background: #40D3DC;
+}
+#radio-5:checked ~ .navigation-auto-1 .auto-btn5{
+  background: #40D3DC;
+}
+#radio-6:checked ~ .navigation-auto-1 .auto-btn6{
+  background: #40D3DC;
+}
 
 /* footer */
 .container-footer{
   background-color: #f6b11a;
-  margin-top:100px;
+  margin-top:0px;
   display: block;
   padding-left: 0;
   padding-right: 0;
