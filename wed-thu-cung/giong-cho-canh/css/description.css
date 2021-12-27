@@ -283,7 +283,7 @@ html::-webkit-scrollbar-thumb {
     color: #573f1e;
     font-size:18px;
     font-weight:600;
-    /* font-family: Arial sans-serif; */
+    font-family: Arial ;
     line-height:25px;
     margin: 36px 0 12px ;
 }
@@ -291,7 +291,7 @@ html::-webkit-scrollbar-thumb {
     color: #573f1e;
     font-size:18px;
     font-weight:600;
-    /* font-family: Arial sans-serif; */
+    font-family: Arial ;
     line-height:25px;
     margin: 14px 0 12px ;
 }
@@ -386,14 +386,14 @@ html::-webkit-scrollbar-thumb {
 .container-section .my-address p{
     color: #fff;
     font-size: 14px;
-    font-family: Arial sans-serif;
+    font-family: Arial ;
     text-align: center;
     line-height: 25px;
 }
 .container-section .my-address p a{
     display: inline-block;
     color: #ffffff;
-    font-family: Arial sans-serif;
+    font-family: Arial ;
     font-size: 14px;line-height: 25px;
 }
 /* css hover footer*/
