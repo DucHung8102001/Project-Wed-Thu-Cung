@@ -283,7 +283,7 @@ html::-webkit-scrollbar-thumb {
     color: #573f1e;
     font-size:18px;
     font-weight:600;
-    font-family: Arial sans-serif;
+    /* font-family: Arial sans-serif; */
     line-height:25px;
     margin: 36px 0 12px ;
 }
@@ -291,7 +291,7 @@ html::-webkit-scrollbar-thumb {
     color: #573f1e;
     font-size:18px;
     font-weight:600;
-    font-family: Arial sans-serif;
+    /* font-family: Arial sans-serif; */
     line-height:25px;
     margin: 14px 0 12px ;
 }
@@ -339,7 +339,7 @@ html::-webkit-scrollbar-thumb {
     font-size:14px;
     line-height: 19px;
     text-align: left;
-    font-family: Arial sans-serif;
+    /* font-family: Arial sans-serif; */
     text-decoration: none;
     padding-top: 11px;
 }
@@ -396,3 +396,17 @@ html::-webkit-scrollbar-thumb {
     font-family: Arial sans-serif;
     font-size: 14px;line-height: 25px;
 }
+/* css hover footer*/
+.column .footer-list .items:hover{
+    color: #fff;
+    padding-left:5px;
+  }
+  h3.col-title:hover {
+    color: #fff;
+    padding-left: 5px;
+    
+  }
+  h3.col-title-1:hover {
+    color: #fff;
+    padding-left: 5px;
+  }
