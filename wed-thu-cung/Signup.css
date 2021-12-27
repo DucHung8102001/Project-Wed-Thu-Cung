@@ -226,7 +226,7 @@ html::-webkit-scrollbar-thumb {
     text-decoration:none;
 }
 .contain-login .checkbox{
-    margin-right: 340px;
+    margin-right: 299px;
     margin-top: 4px;
 }
 /* footer */
@@ -363,3 +363,17 @@ html::-webkit-scrollbar-thumb {
     font-size: 14px;
     line-height: 25px;
 }
+/* css hover footer*/
+.column .footer-list .items:hover{
+    color: #fff;
+    padding-left:5px;
+  }
+  h3.col-title:hover {
+    color: #fff;
+    padding-left: 5px;
+    
+  }
+  h3.col-title-1:hover {
+    color: #fff;
+    padding-left: 5px;
+  }
