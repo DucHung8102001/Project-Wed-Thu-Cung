@@ -168,6 +168,7 @@ html::-webkit-scrollbar-thumb {
 .header .icons div:hover {
     color: #0984e3;
 }
+
 /* <!-- header section img  --> */
 .clearfix {
     content: "";
@@ -182,7 +183,6 @@ html::-webkit-scrollbar-thumb {
 a {
     color: #000;
     text-decoration: none;
-
     -webkit-transition: color .2s linear;
     -moz-transition: color .2s linear;
     -o-transition: color .2s linear;
@@ -210,7 +210,6 @@ a:hover {
 #cart a {
     color: #53b5aa;
     text-decoration: none;
-
     -webkit-transition: color .2s linear;
     -moz-transition: color .2s linear;
     -o-transition: color .2s linear;
@@ -232,7 +231,6 @@ a:hover {
     width: 100%;
     height: 195px;
     position: relative;
-
     -webkit-transition: margin .2s linear, opacity .2s linear;
     -moz-transition: margin .2s linear, opacity .2s linear;
     -o-transition: margin .2s linear, opacity .2s linear;
@@ -279,7 +277,6 @@ a:hover {
     bottom: -50px;
     right: 0;
     left: 0;
-
     -webkit-transition: bottom .2s linear;
     -moz-transition: bottom .2s linear;
     -o-transition: bottom .2s linear;
@@ -330,7 +327,6 @@ a:hover {
     line-height: 49px;
     margin: 0;
     padding: 0 30px;
-
     -webkit-transition: margin .15s linear;
     -moz-transition: margin .15s linear;
     -o-transition: margin .15s linear;
@@ -425,7 +421,6 @@ a:hover {
     padding: 16px 0;
     width: 100%;
     text-align: center;
-
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     -o-transition: all .2s linear;
