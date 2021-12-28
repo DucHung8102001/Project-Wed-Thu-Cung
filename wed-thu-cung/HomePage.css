@@ -268,7 +268,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #radio1:checked ~ .first{
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 #radio2:checked ~ .first{
@@ -617,7 +617,7 @@ background: #4285F4;
 /* footer */
 .container-footer{
   background-color: #f6b11a;
-  margin-top:0px;
+  margin-top:0;
   display: block;
   padding-left: 0;
   padding-right: 0;
