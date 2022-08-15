@@ -41,10 +41,10 @@
                         <span class="c1" id="c1"> 
                             <a class="c2" href=""> Chó ></a> 
                         </span> 
-                        <div class="nav-bar">
+                        <div class="nav-bar nav-dog">
                             <div class="menu-bar">
                                 <div class="img-bar">
-                                    <img class="imggif" src="img/doghome.gif" alt="">
+                                    <img id="doggif"class="imggif" src="img/doghome.gif" alt="">
                                 </div>
                                 <div class="iteim-bar">
                                     <ul class="sub-menu">
@@ -70,9 +70,34 @@
             </li>            
             <li class="li-dc">
                 <div class="dc-item">
-                    <span class="c1" id="c2"> 
-                        <a class="c2" href=""> Mèo ></a> 
-                    </span>                   
+                    <span class="meo" id="c2">
+                        <a class="c2" href=""> Mèo ></a>
+                    </span>
+                    <div class="nav-bar nav-cat">
+                        <div class="menu-bar" id="menubarcat">
+                            <div class="img-bar">
+                                <img id="catgif" class="imggif" src="img/cathome.gif" alt="">
+                            </div>
+                            <div class="iteim-bar">
+                                <ul class="sub-menu">
+                                    <li><a href="giong-cho-canh/alaska/cho-Alaska.html"> Anh Lông Dài</a></li>
+                                    <li><a href="giong-cho-canh/border-collie/cho-Border-Collie.html"> Anh Lông Ngắn</a></li>
+                                    <li><a href="giong-cho-canh/bull-phap/cho-Bull-Phap.html"> Ba Tư</a></li>
+                                    <li><a href="giong-cho-canh/corgi/cho-Corgi.html"> Bengal</a></li>
+                                    <li><a href="giong-cho-canh/golden/cho-Golden.html"> Maine Coon</a></li>
+                                    <li><a href="giong-cho-canh/husky/cho-Husky.html"> Munchkin</a></li>
+                                </ul>
+                                <ul class="sub-menu">
+                                    <li><a href="giong-cho-canh/labrador/cho-Labrador.html"> Ragdol</a></li>
+                                    <li><a href="giong-cho-canh/phoc-soc/cho-Phoc-Soc.html"> Scottish Flod</a></li>
+                                    <li><a href="giong-cho-canh/poodle/cho-Poodle.html"> Sphynx</a></li>
+                                    <li><a href="giong-cho-canh/pug/cho-Pug.html"> Tuxedo</a></li>
+                                    <li><a href=""> Rừng Na Uy</a></li>
+                                    <li><a href=""> Siberia</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -667,21 +692,35 @@
   </footer>
 <script>
     $(document).ready(function(){
-  $(".c1").hover(function(){
-      var id =$(this).attr('id');
-      if(id==="c1"){
-          $(".imggif").attr('src',"img/doghome.gif");
-      }else{
-        $(".imggif").attr('src',"img/cathome.gif");
-      }
-    $('.nav-bar').css('display', 'block');
-    $(".nav-bar").hover(function(){
+      $(".c1").hover(function(){
+          var id =$(this).attr('id');
+          if(id==="c1"){
+              $("#doggif").attr('src',"img/doghome.gif");
 
-  },function(){
-    $('.nav-bar').css('display', 'none');
-  })
+          }
+        $('.nav-dog').css('display', 'block');
+        $(".nav-dog").hover(function(){
+
+      },function(){
+        $('.nav-dog').css('display', 'none');
+      })
 });
 });
+    $(document).ready(function(){
+        $(".meo").hover(function(){
+            var id =$(this).attr('id');
+            if(id==="c2"){
+                $("#catgif").attr('src',"img/cathome.gif");
+
+            }
+            $('.nav-cat').css('display', 'block');
+            $(".nav-cat").hover(function(){
+
+            },function(){
+                $('.nav-cat').css('display', 'none');
+            })
+        });
+    });
 </script>
 </body>
 <script type="text/javascript">

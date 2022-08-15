@@ -161,11 +161,25 @@ html::-webkit-scrollbar-thumb {
     line-height: 22px;
     transition: all 0.5s ease;
 }
+.meo .c2{
+  font-size: 18px;
+  color: #573f1e;
+  font-weight: 600;
+  line-height: 22px;
+  transition: all 0.5s ease;
+}
 
 .c2{
   position: relative;
 }
-.nav-bar{
+.nav-dog{
+  position:absolute;
+  display: none;
+  top: 113px;
+  animation:all 0.5s ease;
+  height: 0;
+}
+.nav-cat{
   position:absolute;
   display: none;
   top: 113px;
@@ -179,6 +193,9 @@ html::-webkit-scrollbar-thumb {
   border-radius: 10px;
   width: 1200px;
   height:300px;
+}
+#menubarcat{
+  margin-left: -100px;
 }
 .menu-bar .img-bar .imggif{
   margin: 50px 50px 0 50px;
